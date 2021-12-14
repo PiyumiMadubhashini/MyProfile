@@ -1,2 +1,5 @@
-# Piyumi Madubhashini <h4> Institute Of Java And Software Engineering <h2> 
- ![Image not found](assets/images/img.png)
+# Piyumi Madubhashini
+## A mint of creativity
+***Studying at Institute Of Java abd Software Engineering-IJSE***
+
+
