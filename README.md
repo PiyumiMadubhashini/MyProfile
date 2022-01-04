@@ -29,4 +29,12 @@
   - Why hire me
 2.  On the footer contact details are included.
 
+## Links
+
+- [Click here to see Site Map](https://www.gloomaps.com/FnzjWPhvFl).
+- [Click here to see Wireframe](https://wireframe.cc/pro/pp/8f3d860bf489937).
+- [Click here to see Mock-up](https://www.figma.com/file/YSMn6nTyZx3SzY4HzoTrVd/My-Portfolio?node-id=0%3A1).
+- [Click here to see Website](https://piyumimadubhashini.000webhostapp.com/).
+- [Click here to see Git hub Pages](https://piyumimadubhashini.github.io/MyProfile/).
+
 
