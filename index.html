@@ -2,58 +2,229 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Piyumi Madubhashini">
-    <meta name="description" content="Welcome to Piyumi's Portfolio">
-    <meta name="keywords" content="Software Engineer , Creative Designer,Piyumi Madubhashini,ui-ux ">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Piyumi Madubhashini" name="author">
+    <meta content="Welcome to Piyumi's Portfolio" name="description">
+    <meta content="Software Engineer , Creative Designer,Piyumi Madubhashini,ui-ux " name="keywords">
 
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/fav.png">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/images/fav.png" rel="icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Neuton&display=swap" rel="stylesheet">
     <title>Piyumi Madubhashini</title>
 
     <style>
 
-        .logo{
+        .logo {
             position: absolute;
             width: 91px;
             height: 93px;
+            top: 10px;
+            float: left;
         }
 
-        .header img{
-            display: block;
+        .logo-name {
+            position: absolute;
+            left: 126px;
+            top: -11px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+            color: #333652;
         }
+
+        .tag {
+            position: absolute;
+            left: -1px;
+            top: 43px;
+            font-size: 25px;
+            font-weight: normal;
+            color: #90ADC6;
+
+        }
+
+        .home > nav {
+            position: absolute;
+            left: 78%;
+        }
+
+        .home > nav > p {
+            float: left;
+            margin-left: 15px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Neuton', serif;
+            font-size: 23px;
+        }
+
+        .home > nav > p:hover {
+            cursor: pointer;
+            font-weight: bold;
+            color: #90ADC6;
+            text-decoration: underline #FAD02C solid;
+        }
+
+        .box:hover {
+            background-color: #333652;
+            width: 125px;
+            height: 35px;
+            text-align: center;
+        }
+
+        .dark {
+            position: absolute;
+            top: 76px;
+            left: 93.3%;
+        }
+
+        .dark-icon {
+            position: absolute;
+            top: 10px;
+            left: 3%;
+            width: 26px;
+            height: 29px;
+            cursor: pointer;
+        }
+
+        .png-bg {
+            position: absolute;
+            width: 918px;
+            height: 1034px;
+            top: 4px;
+            z-index: 1;
+        }
+
+        .Name-set {
+            position: absolute;
+            top: 182px;
+            left: 409px;
+            z-index: 2;
+
+        }
+
+        .Name {
+            position: relative;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 60px;
+
+        }
+
+        .tag-line {
+            position: relative;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Neuton', serif;
+            font-weight: normal;
+            font-size: 39px;
+            top: -67px;
+            left: 169px;
+
+        }
+
+        .pro-pic {
+            position: absolute;
+            z-index: 3;
+            width: 262px;
+            height: 260px;
+            top: 387px;
+            left: 578px;
+        }
+
+        .sqr-one {
+            position: absolute;
+            width: 268px;
+            height: 270px;
+            background-color: #90ADC6;
+            border-radius: 42px;
+            top: 378px;
+            left: 568px;
+            z-index: 2;
+
+        }
+
+        .sqr-two {
+            position: absolute;
+            width: 256px;
+            height: 262px;
+            background-color: #FAD02C;
+            border-radius: 42px;
+            top: 394px;
+            left: 594px;
+            z-index: 2;
+        }
+
+        .para {
+            position: absolute;
+            color: #565C62;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 30px;
+            width: 698px;
+            height: 84px;
+            top: 647px;
+            left: 390px;
+            text-align: -webkit-center;
+            z-index: 2;
+        }
+
+
     </style>
 </head>
-<body >
+<body>
 <main>
-<section class="home">
-    <div class="header">
-        <img class="logo" src="assets/images/logo.gif" alt="No image found">
+    <section class="home">
+        <div class="header">
+            <img alt="No image found" class="logo" src="assets/images/logo.gif">
+            <div class="logo-name">
+                <p>Piyumi Madubhashini</p>
+                <div class="tag">
+                    <p>Creator</p>
+                </div>
+            </div>
 
-    </div>
-    <nav>
+        </div>
+        <nav>
+            <p>Home</p>
+            <p>Services</p>
+            <p class="box">Why Hire Me</p>
+        </nav>
+        <div class="dark">
+            <img alt="No Image Found" src="assets/images/dark.png">
+            <img alt="No Image Found" class="dark-icon" src="assets/images/darkIcon.png">
 
-    </nav>
-    <div class="dark">
+        </div>
+        <div>
+            <img alt="No Image Found" class="png-bg" src="assets/images/bgPng.png">
+        </div>
+        <div class="Name-set">
+            <p class="Name">Piyumi Madubhashini De Silva</p>
+            <p class="tag-line">A mint of creativity.</p>
+        </div>
+        <div class="picture">
+            <img alt="No Image Found" class="pro-pic" src="assets/images/profile.png">
 
-    </div>
-    <div class="name">
+        </div>
+        <div class="sqr-one"></div>
+        <div class="sqr-two"></div>
 
-    </div>
-    <div class="picture">
+        <p class="para">Creativity doesn't wait for that perfect moment. It fashions
+            its own perfect moments out of ordinary ones.</p>
 
-    </div>
-    <p>
+        <div class="btn">
 
-    </p>
-    <div class="btn">
-        
-    </div>
-</section>
+        </div>
+    </section>
 </main>
 </body>
 </html>
