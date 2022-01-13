@@ -151,6 +151,18 @@
             left: 568px;
             z-index: 2;
 
+            transition-property: all;
+            transition: 0.5s ease;
+
+        }
+
+        .sqr-one:hover {
+            background-color: #FAD02C;
+
+        }
+
+        .sqr-two:hover {
+            background-color: #90ADC6;
         }
 
         .sqr-two {
@@ -162,6 +174,8 @@
             top: 394px;
             left: 594px;
             z-index: 2;
+            transition: 0.5s ease;
+
         }
 
         .para {
@@ -187,6 +201,8 @@
             left: 1322px;
             border-radius: 65px;
             opacity: 80%;
+            cursor: pointer;
+
         }
 
         .arr-png {
@@ -198,8 +214,7 @@
         }
 
 
-
-        .down-cv{
+        .down-cv {
             position: absolute;
             top: 790px;
             left: 402px;
@@ -215,9 +230,11 @@
             font-size: 20px;
             cursor: pointer;
             padding-top: -21px;
+
+            transition-property: all;
         }
 
-        .Hire-me{
+        .Hire-me {
             position: absolute;
             top: 789px;
             left: 580px;
@@ -232,7 +249,176 @@
             font-size: 20px;
             cursor: pointer;
             padding-top: -15px;
+            transition-property: all;
         }
+
+        .down-cv:hover {
+            background-color: white;
+            border: solid #FAD02C;
+            transition: 0.5s ease;
+            transform: scale(1.115);
+
+        }
+
+
+        .Hire-me:hover {
+            background-color: #FAD02C;
+            border: transparent;
+            transition: 0.5s ease;
+            transform: scale(1.115);
+
+        }
+
+        .ash-area{
+            position: absolute;
+            width: 1506px;
+            height: 225px;
+            background-color: #90ADC6;
+            opacity: 25%;
+            top: 856px;
+            z-index: 1;
+        }
+
+        .topic-one{
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: normal;
+            font-size: 30px;
+            color: black;
+            top: 834px;
+            left: 1023px;
+        }
+
+        .topic-two{
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 62px;
+            color: #333652;
+            top: 831px;
+            left: 1021px;
+        }
+
+        .view-detail{
+            position: absolute;
+            top: 1034px;
+            left: 1377px;
+            z-index: 3;
+            width: 115px;
+            height: 31px;
+            background-color: transparent;
+            border: solid #FAD02C;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: -6px;
+
+            cursor: pointer;
+            transition-property: all;
+        }
+
+        .view-detail:hover{
+            background-color: #FAD02C;
+            border: transparent;
+            transition: 0.5s ease;
+            transform: scale(1.115);
+        }
+
+        .edu-img{
+            position: absolute;
+            width: 711px;
+            height: 508px;
+            top: 1078px;
+            left: 824px;
+        }
+
+        .wrapper{
+            width: 40%;
+            min-width: 590px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 379px;
+            top: 1114px;
+        }
+
+
+        .details{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .bar{
+            position: relative;
+
+            border: 1px solid #FF9F43;
+            border-radius: 20px;
+
+
+        }
+        .bar div {
+            position: relative;
+            width: 0;
+            height: 9px;
+            border-radius: 10px;
+            background-color: #FF9F43;
+
+
+        }
+
+        .skills:not(:last-child){
+            margin-bottom: 30px;
+        }
+
+        #mhs{
+            animation: mhs-fill 2s forwards;
+        }
+        @keyframes mhs-fill{
+            100%{
+                width: 75%;
+            }
+        }
+
+        #devi-bar{
+            animation: devi-fill 2s forwards;
+        }
+        @keyframes devi-fill {
+            100%{
+                width: 25%;
+            }
+        }
+
+        #ijse-bar{
+            animation: ijse-fill 2s forwards;
+        }
+        @keyframes ijse-fill{
+            100%{
+                width: 48%;
+            }
+        }
+
+        #wgsl-bar{
+            animation: wgsl-fill 2s forwards;
+        }
+        @keyframes wgsl-fill{
+            100%{
+                width: 40%;
+            }
+        }
+
+        h4{
+            position: relative;
+            top: 45px;
+            left: 70px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        h3,h4{
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+        }
+
 
 
 
@@ -281,11 +467,74 @@
         <p class="para">Creativity doesn't wait for that perfect moment. It fashions
             its own perfect moments out of ordinary ones.</p>
 
-        <div >
+        <div>
             <button class="down-cv">Download CV</button>
             <button class="Hire-me">Hire Me</button>
 
         </div>
+
+    </section>
+    <section class="Education">
+        <div class="ash-area"> </div>
+        <div class="topic">
+            <p class="topic-one">Education is an art let’s spread it with love.</p>
+            <p class="topic-two">My Educational Life</p>
+
+        </div>
+
+        <div>
+            <button class="view-detail">View Details</button>
+        </div>
+        <div class="edu-svg">
+            <img class="edu-img" src="assets/images/edu.png" alt="No Image Found">
+
+        </div>
+        <side>
+
+            <div class="wrapper">
+                <div class="container">
+
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span><h3>Methodist High School</h3></span>
+                        <span><h4>2017</h4></span>
+                    </div>
+                    <div class="bar">
+                        <div id="mhs"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span><h3>Wijeya Graphic - WGSL</h3></span>
+                        <span><h4>2015</h4></span>
+                    </div>
+                    <div class="bar">
+                        <div id="wgsl-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span><h3>Devi Balika Vidyalaya</h3></span>
+                        <span><h4>2020</h4></span>
+                    </div>
+                    <div class="bar">
+                        <div id="devi-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span><h3>IJSE</h3></span>
+                        <span><h4>Present</h4></span>
+                    </div>
+                    <div class="bar">
+                        <div id="ijse-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </side>
+
+
     </section>
 </main>
 </body>
