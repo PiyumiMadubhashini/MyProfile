@@ -269,7 +269,7 @@
 
         }
 
-        .ash-area{
+        .ash-area {
             position: absolute;
             width: 1506px;
             height: 225px;
@@ -279,7 +279,7 @@
             z-index: 1;
         }
 
-        .topic-one{
+        .topic-one {
             position: absolute;
             font-family: 'Neuton', serif;
             font-weight: normal;
@@ -289,7 +289,7 @@
             left: 1023px;
         }
 
-        .topic-two{
+        .topic-two {
             position: absolute;
             font-family: 'Neuton', serif;
             font-weight: bold;
@@ -299,7 +299,7 @@
             left: 1021px;
         }
 
-        .view-detail{
+        .view-detail {
             position: absolute;
             top: 1034px;
             left: 1377px;
@@ -317,38 +317,40 @@
             transition-property: all;
         }
 
-        .view-detail:hover{
+        .view-detail:hover {
             background-color: #FAD02C;
             border: transparent;
             transition: 0.5s ease;
             transform: scale(1.115);
         }
 
-        .edu-img{
+        .edu-img {
             position: absolute;
             width: 711px;
             height: 508px;
             top: 1078px;
             left: 824px;
+            float: right;
         }
 
-        .wrapper{
+        .wrapper {
             width: 40%;
             min-width: 590px;
             position: absolute;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%, -50%);
             left: 379px;
             top: 1114px;
         }
 
 
-        .details{
+        .details {
             width: 100%;
             display: flex;
             justify-content: space-between;
             margin-bottom: 10px;
         }
-        .bar{
+
+        .bar {
             position: relative;
 
             border: 1px solid #FF9F43;
@@ -356,6 +358,7 @@
 
 
         }
+
         .bar div {
             position: relative;
             width: 0;
@@ -366,47 +369,53 @@
 
         }
 
-        .skills:not(:last-child){
+        .skills:not(:last-child) {
             margin-bottom: 30px;
         }
 
-        #mhs{
+        #mhs {
             animation: mhs-fill 2s forwards;
         }
-        @keyframes mhs-fill{
-            100%{
+
+        @keyframes mhs-fill {
+            100% {
                 width: 75%;
             }
         }
 
-        #devi-bar{
+        #devi-bar {
             animation: devi-fill 2s forwards;
         }
+
         @keyframes devi-fill {
-            100%{
+            100% {
                 width: 25%;
             }
         }
 
-        #ijse-bar{
+        #ijse-bar {
             animation: ijse-fill 2s forwards;
-        }
-        @keyframes ijse-fill{
-            100%{
-                width: 48%;
-            }
+            float: bottom;
         }
 
-        #wgsl-bar{
+        @keyframes ijse-fill {
+            100% {
+                width: 48%;
+            }
+
+        }
+
+        #wgsl-bar {
             animation: wgsl-fill 2s forwards;
         }
-        @keyframes wgsl-fill{
-            100%{
+
+        @keyframes wgsl-fill {
+            100% {
                 width: 40%;
             }
         }
 
-        h4{
+        h4 {
             position: relative;
             top: 45px;
             left: 70px;
@@ -414,11 +423,212 @@
             font-size: 18px;
         }
 
-        h3,h4{
+        h3, h4 {
             font-family: 'Neuton', serif;
             font-weight: bold;
         }
 
+
+        .serv-one {
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 50px;
+            color: #333652;
+            top: 1513px;
+            left: 81px
+        }
+
+        .serv-two {
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: normal;
+            font-size: 20px;
+            color: #333652;
+            top: 1603px;
+            left: 79px;
+
+        }
+
+        .graphic {
+            position: absolute;
+            top: 1709px;
+            left: 77px;
+            height: 510px;
+            width: 419px;
+            background-color: #90ADC6;
+            transition-property: all;
+            transition: 0.25s ease;
+        }
+
+        .graphic:hover {
+            -moz-box-shadow: 0 0 15px #333652;
+            -webkit-box-shadow: 0 0 15px #333652;
+            box-shadow: 0 0 15px #333652;
+            cursor: pointer;
+            transform: scale(1.115);
+
+        }
+
+        .developer {
+            position: absolute;
+            top: 1709px;
+            left: 570px;
+            height: 510px;
+            width: 419px;
+            background-color: #333652;
+            transition-property: all;
+            transition: 0.25s ease;
+        }
+
+        .developer:hover {
+            -moz-box-shadow: 0 0 15px #333652;
+            -webkit-box-shadow: 0 0 15px #333652;
+            box-shadow: 0 0 15px #333652;
+            cursor: pointer;
+            transform: scale(1.115);
+
+
+        }
+
+        .poetess {
+            position: absolute;
+            top: 1709px;
+            left: 1058px;
+            height: 510px;
+            width: 419px;
+            background-color: #FAD02C;
+            transition-property: all;
+            transition: 0.25s ease;
+
+        }
+
+        .poetess:hover {
+            -moz-box-shadow: 0 0 15px #333652;
+            -webkit-box-shadow: 0 0 15px #333652;
+            box-shadow: 0 0 15px #333652;
+            cursor: pointer;
+            transform: scale(1.115);
+
+        }
+
+        .graphic-png {
+            position: absolute;
+            top: 348px;
+            left: 13px;
+            width: 406px;
+            height: 179px;
+
+        }
+
+        .developer-png {
+            position: absolute;
+            top: 229px;
+            left: -3px;
+            width: 421px;
+            height: 305px;
+
+        }
+
+        .poetess-png {
+            position: absolute;
+            top: 157px;
+            left: 5px;
+            width: 411px;
+            height: 392px;
+
+        }
+
+        .graphic > p {
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 40px;
+            color: black;
+            top: -28px;
+            left: 20px;
+        }
+
+        .developer > p {
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 40px;
+            color: white;
+            top: -28px;
+            left: 20px;
+        }
+
+        .poetess > p {
+            position: absolute;
+            font-family: 'Neuton', serif;
+            font-weight: bold;
+            font-size: 40px;
+            color: black;
+            top: -28px;
+            left: 20px;
+        }
+
+        @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+        .container {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center {
+            width: 148px;
+            height: 36px;
+            position: absolute;
+            top: 28px;
+            left: 11px;
+        }
+
+        .btn {
+            width: 128px;
+            height: 41px;
+            cursor: pointer;
+            background: transparent;
+            border: 1px solid black;
+            outline: none;
+            transition: 1s ease-in-out;
+        }
+
+        svg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            fill: none;
+            stroke: #fff;
+            stroke-dasharray: 150 480;
+            stroke-dashoffset: 150;
+            transition: 1s ease-in-out;
+        }
+
+        .btn:hover {
+            transition: 1s ease-in-out;
+            background: #4F95DA;
+        }
+
+        .btn:hover svg {
+            stroke-dashoffset: -480;
+        }
+
+        .btn span {
+            font-family: 'Neuton', serif;
+            color: black;
+            font-size: 18px;
+            font-weight: 50;
+        }
 
 
 
@@ -468,14 +678,18 @@
             its own perfect moments out of ordinary ones.</p>
 
         <div>
-            <button class="down-cv">Download CV</button>
-            <button class="Hire-me">Hire Me</button>
+            <a download="CV" href="assets/images/Piyumi Madubhashini cv.pdf">
+                <button class="down-cv">Download CV</button>
+            </a>
+            <a href="mailto:piyumimadubhashini281@gmail.com">
+                <button class="Hire-me">Hire Me</button>
+            </a>
 
         </div>
 
     </section>
     <section class="Education">
-        <div class="ash-area"> </div>
+        <div class="ash-area"></div>
         <div class="topic">
             <p class="topic-one">Education is an art let’s spread it with love.</p>
             <p class="topic-two">My Educational Life</p>
@@ -486,7 +700,7 @@
             <button class="view-detail">View Details</button>
         </div>
         <div class="edu-svg">
-            <img class="edu-img" src="assets/images/edu.png" alt="No Image Found">
+            <img alt="No Image Found" class="edu-img" src="assets/images/edu.png">
 
         </div>
         <side>
@@ -534,6 +748,62 @@
             </div>
         </side>
 
+
+    </section>
+    <section class="services">
+        <div class="serv-topic">
+            <p class="serv-one">My Awesome Services</p>
+            <p class="serv-two">Customer service is about empathy.</p>
+        </div>
+
+        <div class="graphic">
+            <p>Graphic Designer ,</p>
+            <div class="container">
+                <div class="center">
+                    <button class="btn">
+                        <svg width="128px" height="41px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span>View More >> </span>
+                    </button>
+                </div>
+            </div>
+            <img alt="No Image Found" class="graphic-png" src="assets/images/graphic.png">
+
+        </div>
+        <div class="developer">
+            <p>Developer ,</p>
+            <div class="container">
+                <div class="center">
+                    <button class="btn">
+                        <svg width="128px" height="41px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span style="color: white">View More >> </span>
+                    </button>
+                </div>
+            </div>
+            <img alt="No Image Found" class="developer-png" src="assets/images/edu.png">
+
+        </div>
+        <div class="poetess">
+            <p>Poetess ,</p>
+            <div class="container">
+                <div class="center">
+                    <button class="btn">
+                        <svg width="128px" height="41px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span>View More >> </span>
+                    </button>
+                </div>
+            </div>
+            <img alt="No Image Found" class="poetess-png" src="assets/images/poetes.png">
+
+        </div>
 
     </section>
 </main>
