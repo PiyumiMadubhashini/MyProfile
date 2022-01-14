@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
     <meta content="Piyumi Madubhashini" name="author">
     <meta content="Welcome to Piyumi's Portfolio" name="description">
     <meta content="Software Engineer , Creative Designer,Piyumi Madubhashini,ui-ux " name="keywords">
+    <meta charset="utf-8">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/457a315592.js"></script>
 
 
     <link href="assets/css/style.css" rel="stylesheet">
@@ -24,615 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Neuton&display=swap" rel="stylesheet">
     <title>Piyumi Madubhashini</title>
 
-    <style>
 
-        .logo {
-            position: absolute;
-            width: 91px;
-            height: 93px;
-            top: 10px;
-            float: left;
-        }
-
-        .logo-name {
-            position: absolute;
-            left: 126px;
-            top: -11px;
-            font-family: 'Nanum Gothic', sans-serif;
-            font-weight: bold;
-            font-size: 32px;
-            color: #333652;
-        }
-
-        .tag {
-            position: absolute;
-            left: -1px;
-            top: 43px;
-            font-size: 25px;
-            font-weight: normal;
-            color: #90ADC6;
-
-        }
-
-        .home > nav {
-            position: absolute;
-            left: 78%;
-        }
-
-        .home > nav > p {
-            float: left;
-            margin-left: 15px;
-            font-family: 'Nanum Gothic', sans-serif;
-            font-family: 'Neuton', serif;
-            font-size: 23px;
-        }
-
-        .home > nav > p:hover {
-            cursor: pointer;
-            font-weight: bold;
-            color: #90ADC6;
-            text-decoration: underline #FAD02C solid;
-        }
-
-        .box:hover {
-            background-color: #333652;
-            width: 125px;
-            height: 35px;
-            text-align: center;
-        }
-
-        .dark {
-            position: absolute;
-            top: 76px;
-            left: 93.3%;
-        }
-
-        .dark-icon {
-            position: absolute;
-            top: 10px;
-            left: 3%;
-            width: 26px;
-            height: 29px;
-            cursor: pointer;
-        }
-
-        .png-bg {
-            position: absolute;
-            width: 918px;
-            height: 1034px;
-            top: 4px;
-            z-index: 1;
-        }
-
-        .Name-set {
-            position: absolute;
-            top: 182px;
-            left: 409px;
-            z-index: 2;
-
-        }
-
-        .Name {
-            position: relative;
-            font-family: 'Nanum Gothic', sans-serif;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 60px;
-
-        }
-
-        .tag-line {
-            position: relative;
-            font-family: 'Nanum Gothic', sans-serif;
-            font-family: 'Neuton', serif;
-            font-weight: normal;
-            font-size: 39px;
-            top: -67px;
-            left: 169px;
-
-        }
-
-        .pro-pic {
-            position: absolute;
-            z-index: 3;
-            width: 262px;
-            height: 260px;
-            top: 387px;
-            left: 578px;
-        }
-
-        .sqr-one {
-            position: absolute;
-            width: 268px;
-            height: 270px;
-            background-color: #90ADC6;
-            border-radius: 42px;
-            top: 378px;
-            left: 568px;
-            z-index: 2;
-
-            transition-property: all;
-            transition: 0.5s ease;
-
-        }
-
-        .sqr-one:hover {
-            background-color: #FAD02C;
-
-        }
-
-        .sqr-two:hover {
-            background-color: #90ADC6;
-        }
-
-        .sqr-two {
-            position: absolute;
-            width: 256px;
-            height: 262px;
-            background-color: #FAD02C;
-            border-radius: 42px;
-            top: 394px;
-            left: 594px;
-            z-index: 2;
-            transition: 0.5s ease;
-
-        }
-
-        .para {
-            position: absolute;
-            color: #565C62;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 30px;
-            width: 698px;
-            height: 84px;
-            top: 647px;
-            left: 390px;
-            text-align: -webkit-center;
-            z-index: 2;
-        }
-
-        .arr {
-            position: absolute;
-            width: 115px;
-            height: 114px;
-            background-color: #FFECA0;
-            top: 462px;
-            left: 1322px;
-            border-radius: 65px;
-            opacity: 80%;
-            cursor: pointer;
-
-        }
-
-        .arr-png {
-            position: absolute;
-            width: 73px;
-            height: 42px;
-            top: 36px;
-            left: 17px;
-        }
-
-
-        .down-cv {
-            position: absolute;
-            top: 790px;
-            left: 402px;
-            z-index: 3;
-            width: 148px;
-            height: 35px;
-            background-color: #FAD02C;
-            border: transparent;
-
-
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 20px;
-            cursor: pointer;
-            padding-top: -21px;
-
-            transition-property: all;
-        }
-
-        .Hire-me {
-            position: absolute;
-            top: 789px;
-            left: 580px;
-            z-index: 3;
-            width: 148px;
-            height: 35px;
-            background-color: white;
-            border: solid #FAD02C;
-
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 20px;
-            cursor: pointer;
-            padding-top: -15px;
-            transition-property: all;
-        }
-
-        .down-cv:hover {
-            background-color: white;
-            border: solid #FAD02C;
-            transition: 0.5s ease;
-            transform: scale(1.115);
-
-        }
-
-
-        .Hire-me:hover {
-            background-color: #FAD02C;
-            border: transparent;
-            transition: 0.5s ease;
-            transform: scale(1.115);
-
-        }
-
-        .ash-area {
-            position: absolute;
-            width: 1506px;
-            height: 225px;
-            background-color: #90ADC6;
-            opacity: 25%;
-            top: 856px;
-            z-index: 1;
-        }
-
-        .topic-one {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: normal;
-            font-size: 30px;
-            color: black;
-            top: 834px;
-            left: 1023px;
-        }
-
-        .topic-two {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 62px;
-            color: #333652;
-            top: 831px;
-            left: 1021px;
-        }
-
-        .view-detail {
-            position: absolute;
-            top: 1034px;
-            left: 1377px;
-            z-index: 3;
-            width: 115px;
-            height: 31px;
-            background-color: transparent;
-            border: solid #FAD02C;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 20px;
-            padding-top: -6px;
-
-            cursor: pointer;
-            transition-property: all;
-        }
-
-        .view-detail:hover {
-            background-color: #FAD02C;
-            border: transparent;
-            transition: 0.5s ease;
-            transform: scale(1.115);
-        }
-
-        .edu-img {
-            position: absolute;
-            width: 711px;
-            height: 508px;
-            top: 1078px;
-            left: 824px;
-            float: right;
-        }
-
-        .wrapper {
-            width: 40%;
-            min-width: 590px;
-            position: absolute;
-            transform: translate(-50%, -50%);
-            left: 379px;
-            top: 1114px;
-        }
-
-
-        .details {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-
-        .bar {
-            position: relative;
-
-            border: 1px solid #FF9F43;
-            border-radius: 20px;
-
-
-        }
-
-        .bar div {
-            position: relative;
-            width: 0;
-            height: 9px;
-            border-radius: 10px;
-            background-color: #FF9F43;
-
-
-        }
-
-        .skills:not(:last-child) {
-            margin-bottom: 30px;
-        }
-
-        #mhs {
-            animation: mhs-fill 2s forwards;
-        }
-
-        @keyframes mhs-fill {
-            100% {
-                width: 75%;
-            }
-        }
-
-        #devi-bar {
-            animation: devi-fill 2s forwards;
-        }
-
-        @keyframes devi-fill {
-            100% {
-                width: 25%;
-            }
-        }
-
-        #ijse-bar {
-            animation: ijse-fill 2s forwards;
-            float: bottom;
-        }
-
-        @keyframes ijse-fill {
-            100% {
-                width: 48%;
-            }
-
-        }
-
-        #wgsl-bar {
-            animation: wgsl-fill 2s forwards;
-        }
-
-        @keyframes wgsl-fill {
-            100% {
-                width: 40%;
-            }
-        }
-
-        h4 {
-            position: relative;
-            top: 45px;
-            left: 70px;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        h3, h4 {
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-        }
-
-
-        .serv-one {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 50px;
-            color: #333652;
-            top: 1513px;
-            left: 81px
-        }
-
-        .serv-two {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: normal;
-            font-size: 20px;
-            color: #333652;
-            top: 1603px;
-            left: 79px;
-
-        }
-
-        .graphic {
-            position: absolute;
-            top: 1709px;
-            left: 77px;
-            height: 510px;
-            width: 419px;
-            background-color: #90ADC6;
-            transition-property: all;
-            transition: 0.25s ease;
-        }
-
-        .graphic:hover {
-            -moz-box-shadow: 0 0 15px #333652;
-            -webkit-box-shadow: 0 0 15px #333652;
-            box-shadow: 0 0 15px #333652;
-            cursor: pointer;
-            transform: scale(1.115);
-
-        }
-
-        .developer {
-            position: absolute;
-            top: 1709px;
-            left: 570px;
-            height: 510px;
-            width: 419px;
-            background-color: #333652;
-            transition-property: all;
-            transition: 0.25s ease;
-        }
-
-        .developer:hover {
-            -moz-box-shadow: 0 0 15px #333652;
-            -webkit-box-shadow: 0 0 15px #333652;
-            box-shadow: 0 0 15px #333652;
-            cursor: pointer;
-            transform: scale(1.115);
-
-
-        }
-
-        .poetess {
-            position: absolute;
-            top: 1709px;
-            left: 1058px;
-            height: 510px;
-            width: 419px;
-            background-color: #FAD02C;
-            transition-property: all;
-            transition: 0.25s ease;
-
-        }
-
-        .poetess:hover {
-            -moz-box-shadow: 0 0 15px #333652;
-            -webkit-box-shadow: 0 0 15px #333652;
-            box-shadow: 0 0 15px #333652;
-            cursor: pointer;
-            transform: scale(1.115);
-
-        }
-
-        .graphic-png {
-            position: absolute;
-            top: 348px;
-            left: 13px;
-            width: 406px;
-            height: 179px;
-
-        }
-
-        .developer-png {
-            position: absolute;
-            top: 229px;
-            left: -3px;
-            width: 421px;
-            height: 305px;
-
-        }
-
-        .poetess-png {
-            position: absolute;
-            top: 157px;
-            left: 5px;
-            width: 411px;
-            height: 392px;
-
-        }
-
-        .graphic > p {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 40px;
-            color: black;
-            top: -28px;
-            left: 20px;
-        }
-
-        .developer > p {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 40px;
-            color: white;
-            top: -28px;
-            left: 20px;
-        }
-
-        .poetess > p {
-            position: absolute;
-            font-family: 'Neuton', serif;
-            font-weight: bold;
-            font-size: 40px;
-            color: black;
-            top: -28px;
-            left: 20px;
-        }
-
-        @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
-
-
-
-        .container {
-            width: 400px;
-            height: 400px;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .center {
-            width: 148px;
-            height: 36px;
-            position: absolute;
-            top: 28px;
-            left: 11px;
-        }
-
-        .btn {
-            width: 128px;
-            height: 41px;
-            cursor: pointer;
-            background: transparent;
-            border: 1px solid black;
-            outline: none;
-            transition: 1s ease-in-out;
-        }
-
-        svg {
-            position: absolute;
-            left: 0;
-            top: 0;
-            fill: none;
-            stroke: #fff;
-            stroke-dasharray: 150 480;
-            stroke-dashoffset: 150;
-            transition: 1s ease-in-out;
-        }
-
-        .btn:hover {
-            transition: 1s ease-in-out;
-            background: #4F95DA;
-        }
-
-        .btn:hover svg {
-            stroke-dashoffset: -480;
-        }
-
-        .btn span {
-            font-family: 'Neuton', serif;
-            color: black;
-            font-size: 18px;
-            font-weight: 50;
-        }
-
-
-
-    </style>
 </head>
 <body>
 <main>
@@ -761,9 +155,9 @@
             <div class="container">
                 <div class="center">
                     <button class="btn">
-                        <svg width="128px" height="41px" viewBox="0 0 180 60" class="border">
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        <svg class="border" height="41px" viewBox="0 0 180 60" width="128px">
+                            <polyline class="bg-line" points="179,1 179,59 1,59 1,1 179,1"/>
+                            <polyline class="hl-line" points="179,1 179,59 1,59 1,1 179,1"/>
                         </svg>
                         <span>View More >> </span>
                     </button>
@@ -777,9 +171,9 @@
             <div class="container">
                 <div class="center">
                     <button class="btn">
-                        <svg width="128px" height="41px" viewBox="0 0 180 60" class="border">
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        <svg class="border" height="41px" viewBox="0 0 180 60" width="128px">
+                            <polyline class="bg-line" points="179,1 179,59 1,59 1,1 179,1"/>
+                            <polyline class="hl-line" points="179,1 179,59 1,59 1,1 179,1"/>
                         </svg>
                         <span style="color: white">View More >> </span>
                     </button>
@@ -793,9 +187,9 @@
             <div class="container">
                 <div class="center">
                     <button class="btn">
-                        <svg width="128px" height="41px" viewBox="0 0 180 60" class="border">
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        <svg class="border" height="41px" viewBox="0 0 180 60" width="128px">
+                            <polyline class="bg-line" points="179,1 179,59 1,59 1,1 179,1"/>
+                            <polyline class="hl-line" points="179,1 179,59 1,59 1,1 179,1"/>
                         </svg>
                         <span>View More >> </span>
                     </button>
@@ -805,6 +199,34 @@
 
         </div>
 
+    </section>
+    <section>
+        <div class="graphic-sec">
+            <p class="graphic-topic-one"> Hy, I Am </p>
+            <p class="graphic-topic-two">Graphic Designer !</p>
+            <div class="graphic-logo">
+                <img alt="No Image Found" class="ps" src="assets/images/ps-logo.png">
+                <img alt="No Image Found" class="ai" src="assets/images/ai-logo.png">
+                <img alt="No Image Found" class="id" src="assets/images/id-logo.png">
+
+            </div>
+            <p graphic-link-one></p>
+            <p graphic-link-two></p>
+
+        <div class="graphic-icon">
+            <ul>
+                <li><a href="https://www.fiverr.com/piphyx?up_rollout=true"><img class="fiverr" src="assets/images/fiverr.png" alt="No Image Found"></a></li>
+            </ul>
+        </div>
+        </div>
+        <div >
+            <a class="link" href="https://www.behance.net/gallery/130833177/Professional-Graphic-Works">To see my Professional art works <span class="s1">Click here.</span> </a>
+            <br>
+            <a class="link-2" href="https://www.behance.net/gallery/130833177/Professional-Graphic-Works">To see my fiverr works <span class="s2">Click here.</span></a>
+        </div>
+
+        <div class="vr-1"></div>
+        <div class="vr-2"></div>
     </section>
 </main>
 </body>
