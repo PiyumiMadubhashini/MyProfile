@@ -1,5 +1,4 @@
 
-
 .logo {
     position: absolute;
     width: 91px;
@@ -179,7 +178,7 @@
 
 }
 
-.arr:hover{
+.arr:hover {
     opacity: 100%;
 }
 
@@ -606,13 +605,14 @@ svg {
     font-size: 18px;
     font-weight: 50;
 }
-.graphic-sec{
+
+.graphic-sec {
     position: absolute;
     top: 2163px;
     left: 580px;
 }
 
-.graphic-topic-one{
+.graphic-topic-one {
     position: relative;
     font-family: 'Neuton', serif;
     color: #455A64;
@@ -622,7 +622,7 @@ svg {
     left: 121px;
 }
 
-.graphic-topic-two{
+.graphic-topic-two {
     position: relative;
     font-family: 'Neuton', serif;
     color: #333652;
@@ -632,7 +632,7 @@ svg {
 
 }
 
-.ps{
+.ps {
     position: absolute;
     height: 80px;
     width: 76px;
@@ -640,7 +640,7 @@ svg {
     top: 322px;
 }
 
-.ai{
+.ai {
     position: absolute;
     height: 69px;
     width: 109px;
@@ -648,7 +648,7 @@ svg {
     top: 326px;
 }
 
-.id{
+.id {
     position: absolute;
     height: 72px;
     width: 70px;
@@ -681,13 +681,13 @@ svg {
     transform: translateY(-10px);
 }
 
-.graphic-icon{
+.graphic-icon {
     position: absolute;
     top: 319px;
     left: 797px;
 }
 
-.fiverr{
+.fiverr {
     height: 64px;
     width: 64px;
 
@@ -695,7 +695,7 @@ svg {
 
 }
 
-.fiverr:hover{
+.fiverr:hover {
     background: #FAD02C;
     box-shadow: 0 0 100px #FAD02C;
     border-radius: 80px;
@@ -704,7 +704,7 @@ svg {
     transform: translateY(-10px);
 }
 
-.link{
+.link {
     position: relative;
     top: 2593px;
     left: 620px;
@@ -716,12 +716,12 @@ svg {
     text-align: justify;
 }
 
-span:hover{
+span:hover {
     color: #FAD02C;
     cursor: pointer;
 }
 
-.link-2{
+.link-2 {
     position: relative;
     top: 2602px;
     left: 652px;
@@ -732,7 +732,7 @@ span:hover{
     text-align: justify;
 }
 
-span:hover{
+span:hover {
     color: #FAD02C;
     cursor: pointer;
 }
@@ -754,6 +754,354 @@ span:hover{
     left: 1448px;
 }
 
+.ash-sqr {
+    position: absolute;
+    height: 956px;
+    width: 1427px;
+    top: 2774px;
+    left: 52px;
+    background-color: #90ADC6;
+    opacity: 60%;
+}
+
+.white-sqr {
+    position: relative;
+    height: 167px;
+    width: 1432px;
+    top: 132px;
+    left: -1px;
+    background-color: white;
+
+}
+
+.dev-tag-one {
+    position: relative;
+    top: 2651px;
+    left: 72px;
+    color: #455A64;
+    font-family: 'Neuton', serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.dev-tag-two {
+    position: relative;
+    top: 2655px;
+    left: 70px;
+    color: #1A2E35;
+    font-family: 'Neuton', serif;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 6;
+}
+
+.side-tag {
+    position: relative;
+    top: 2677px;
+    left: 1327px;
+    color: #1A2E35;
+    font-family: 'Neuton', serif;
+    font-size: 35px;
+    font-weight: bold;
+    z-index: 6;
+}
+
+.tools {
+    position: relative;
+    z-index: 7;
+    top: 2714px;
+    left: 269px;
+}
+
+.arrow-right {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 49px;
+    top: 2635px;
+}
+
+.arrow-left {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 1292px;
+    top: 2635px;;
+
+}
+
+.nodejs:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.html:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.css:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.sql:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.hibernate:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.java:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.flutter:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.js:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+}
+
+.nodejs {
+    height: 48px;
+    width: 169px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+}
+
+.html {
+    height: 66px;
+    width: 66px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+
+.css {
+    height: 70px;
+    width: 74px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+
+.js {
+    height: 66px;
+    width: 66px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+
+.hibernate {
+    height: 79px;
+    width: 79px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+
+.sql {
+    height: 89px;
+    width: 133px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+
+.java {
+    height: 82px;
+    width: 82px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+
+.flutter {
+    height: 48px;
+    width: 42px;
+    padding-right: 30px;
+    transition: transform 250ms;
+
+
+}
+.arrow-left{
+    transition-property: all;
+}
+
+.arrow-left:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.115);
+}
+
+.arrow-right:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.115);
+}
+
+.project-tag{
+    position: absolute;
+    font-family: 'Neuton', serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #1A2E35;
+    z-index: 8;
+    top: 3043px;
+    left: 80px;
+}
+
+.pro-pic{
+    cursor: pointer;
+
+}
+
+.my-pro{
+    position: relative;
+    width: 364px;
+    height: 312px;
+    top: 2095px;
+    left: 372px;
+    z-index: 2;
+
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.blue-ocean{
+    position: relative;
+    width: 341px;
+    height: 295px;
+    top: 2390px;
+    left: -528px;
+    z-index: 1;
+
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+
+.final {
+    position: relative;
+    width: 559px;
+    height: 395px;
+    top: 2759px;
+    left: -187px;
+    z-index: 3;
+
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+
+}
+
+.final:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+
+}
+
+
+.blue-ocean:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.my-pro:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.sip {
+    position: relative;
+    width: 167px;
+    height: 139px;
+    top: 1851px;
+    left: 735px;
+    z-index: 1;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+.sip:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
 
 
 
