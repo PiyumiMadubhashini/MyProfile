@@ -1123,7 +1123,7 @@ span:hover {
     height: 68px;
     margin: auto;
     width: 76px;
-    top: 3148px;
+    top: 3298px;
     left: 339px;
     transition: transform 250ms;
 }
@@ -1132,7 +1132,7 @@ span:hover {
     position: relative;
     height: 80px;
     width: 134px;
-    top: 3152px;
+    top: 3157px;
     left: 480px;
     transition: transform 250ms;
 
@@ -1142,8 +1142,8 @@ span:hover {
     position: relative;
     height: 85px;
     width: 163px;
-    top: 3150px;
-    left: 559px;
+    top: 3070px;
+    left: 642px;
     transition: transform 250ms;
 }
 
@@ -1151,16 +1151,17 @@ span:hover {
     position: relative;
     height: 73px;
     width: 74px;
-    top: 3149px;
-    left: 646px;
+    top: 2985px;
+    left: 844px;
     transition: transform 250ms;
 
 }
 
+
 .serv-pic{
     position: relative;
-    top: 14px;
-    left: 77px;
+    top: -105px;
+    left: 119px;
     transition: transform 250ms;
 
 }
@@ -1183,7 +1184,8 @@ span:hover {
     width: 82px;
     height: 82px;
     left: 1291px;
-    top: 3078px;
+    top: 2829px;
+
 }
 
 .arrow-left-two:hover {
@@ -1203,7 +1205,7 @@ span:hover {
     width: 82px;
     height: 82px;
     left: 49px;
-    top: 3089px;
+    top: 2818px;
 }
 
 .link-portfolio a{
@@ -1213,9 +1215,61 @@ span:hover {
     font-size: 28px;
     color: black;
     text-decoration: none;
-    top: 3197px;
-    left: 1065px;
+    top: 2968px;
+    left: 1077px;
 }
+
+.se-tag p{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Neuton', serif;
+    color: #455A64;
+    top: 3290px;
+    left: 309px;
+}
+
+.web-tag p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Neuton', serif;
+    color: #455A64;
+    top: 3363px;
+    left: 487px;
+}
+
+.Ui-ux-tag p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Neuton', serif;
+    color: #455A64;
+    top: 3363px;
+    left: 673px;
+}
+
+.db-tag p {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Neuton', serif;
+    color: #455A64;
+    top: 3363px;
+    left: 821px;
+
+}
+
+.se-tag:hover,.web-tag:hover,.Ui-ux-tag:hover,.db-tag:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 10px #4F95DA;
+
+    filter: dropshadow(color=#4F95DA, offx=2, offy=2);
+}
+
+
+
+
 
 
 
