@@ -224,7 +224,6 @@
     font-family: 'Neuton', serif;
     font-weight: bold;
     font-size: 20px;
-    cursor: pointer;
     padding-top: -15px;
     transition-property: all;
 }
@@ -238,13 +237,15 @@
 }
 
 
-.Hire-me:hover {
+/*.Hire-me:hover {
     background-color: #FAD02C;
     border: transparent;
     transition: 0.5s ease;
     transform: scale(1.115);
-
+    cursor: pointer;
 }
+
+ */
 
 .ash-area {
     position: absolute;
@@ -294,7 +295,7 @@
     transition-property: all;
 }
 
-.view-detail:hover {
+.view-detail:hover , .Hire-me:hover {
     background-color: #FAD02C;
     border: transparent;
     transition: 0.5s ease;
@@ -756,7 +757,7 @@ span:hover {
 
 .ash-sqr {
     position: absolute;
-    height: 956px;
+    height: 821px;
     width: 1427px;
     top: 2774px;
     left: 52px;
@@ -813,22 +814,7 @@ span:hover {
     left: 269px;
 }
 
-.arrow-right {
-    position: relative;
-    width: 82px;
-    height: 82px;
-    left: 49px;
-    top: 2635px;
-}
 
-.arrow-left {
-    position: relative;
-    width: 82px;
-    height: 82px;
-    left: 1292px;
-    top: 2635px;;
-
-}
 
 .nodejs:hover {
     -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
@@ -964,23 +950,39 @@ span:hover {
 
 
 }
-.arrow-left{
+
+.arrow-right {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 49px;
+    top: 2637px;
+}
+
+
+.arrow-left {
+
     transition-property: all;
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 1279px;
+    top: 2635px;
 }
 
-.arrow-left:hover{
+.arrow-left:hover {
     cursor: pointer;
     transition: 0.5s ease;
     transform: scale(1.115);
 }
 
-.arrow-right:hover{
+.arrow-right:hover {
     cursor: pointer;
     transition: 0.5s ease;
     transform: scale(1.115);
 }
 
-.project-tag{
+.project-tag {
     position: absolute;
     font-family: 'Neuton', serif;
     font-weight: bold;
@@ -991,12 +993,12 @@ span:hover {
     left: 80px;
 }
 
-.pro-pic{
+.pro-pic {
     cursor: pointer;
 
 }
 
-.my-pro{
+.my-pro {
     position: relative;
     width: 364px;
     height: 312px;
@@ -1013,7 +1015,7 @@ span:hover {
     -moz-filter: grayscale(100%);
 }
 
-.blue-ocean{
+.blue-ocean {
     position: relative;
     width: 341px;
     height: 295px;
@@ -1094,6 +1096,7 @@ span:hover {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
 }
+
 .sip:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
@@ -1102,6 +1105,121 @@ span:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
+
+.serv-dev{
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    top: 3164px;
+    left: 76px;
+    font-family: 'Neuton', serif;
+
+}
+
+
+
+.se{
+    position: relative;
+    height: 68px;
+    margin: auto;
+    width: 76px;
+    top: 3148px;
+    left: 339px;
+    transition: transform 250ms;
+}
+
+.web{
+    position: relative;
+    height: 80px;
+    width: 134px;
+    top: 3152px;
+    left: 480px;
+    transition: transform 250ms;
+
+}
+
+.ui-ux{
+    position: relative;
+    height: 85px;
+    width: 163px;
+    top: 3150px;
+    left: 559px;
+    transition: transform 250ms;
+}
+
+.db{
+    position: relative;
+    height: 73px;
+    width: 74px;
+    top: 3149px;
+    left: 646px;
+    transition: transform 250ms;
+
+}
+
+.serv-pic{
+    position: relative;
+    top: 14px;
+    left: 77px;
+    transition: transform 250ms;
+
+}
+
+.se:hover,.web:hover,.ui-ux:hover,.db:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
+    -moz-box-shadow: 0 8px 6px -6px #1A2E35;
+    box-shadow: 0 8px 6px -6px #1A2E35;
+    transform: translateY(-10px);
+
+
+}
+.arr-two{
+    position: absolute;
+}
+.arrow-left-two {
+    transition-property: all;
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 1291px;
+    top: 3078px;
+}
+
+.arrow-left-two:hover {
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.115);
+}
+
+.arrow-right-two:hover {
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.115);
+}
+
+.arrow-right-two {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 49px;
+    top: 3089px;
+}
+
+.link-portfolio a{
+    position: relative;
+    font-family: 'Neuton', serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    top: 3197px;
+    left: 1065px;
+}
+
+
+
+
 
 
 
