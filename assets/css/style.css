@@ -237,6 +237,7 @@
 
 
 .Hire:hover {
+    cursor: pointer;
     background-color: #FAD02C;
     border: transparent;
     transition: 0.5s ease;
@@ -292,7 +293,7 @@
     transition-property: all;
 }
 
-.view-detail:hover  {
+.view-detail:hover {
     background-color: #FAD02C;
     border: transparent;
     transition: 0.5s ease;
@@ -812,7 +813,6 @@ span:hover {
 }
 
 
-
 .nodejs:hover {
     -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
     -moz-box-shadow: 0 8px 6px -6px #1A2E35;
@@ -1061,7 +1061,6 @@ span:hover {
     box-shadow: 10px 10px 5px #aaaaaa;
 
 
-
 }
 
 
@@ -1127,7 +1126,7 @@ span:hover {
 
 }
 
-.serv-dev{
+.serv-dev {
     position: relative;
     font-size: 35px;
     font-weight: bold;
@@ -1138,7 +1137,7 @@ span:hover {
 }
 
 
-.se{
+.se {
     position: relative;
     height: 68px;
     margin: auto;
@@ -1148,7 +1147,7 @@ span:hover {
     transition: transform 250ms;
 }
 
-.web{
+.web {
     position: relative;
     height: 80px;
     width: 134px;
@@ -1158,7 +1157,7 @@ span:hover {
 
 }
 
-.ui-ux{
+.ui-ux {
     position: relative;
     height: 85px;
     width: 163px;
@@ -1167,7 +1166,7 @@ span:hover {
     transition: transform 250ms;
 }
 
-.db{
+.db {
     position: relative;
     height: 73px;
     width: 74px;
@@ -1178,7 +1177,7 @@ span:hover {
 }
 
 
-.serv-pic{
+.serv-pic {
     position: relative;
     top: -105px;
     left: 119px;
@@ -1186,7 +1185,7 @@ span:hover {
 
 }
 
-.se:hover,.web:hover,.ui-ux:hover,.db:hover{
+.se:hover, .web:hover, .ui-ux:hover, .db:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 8px 6px -6px #1A2E35;
     -moz-box-shadow: 0 8px 6px -6px #1A2E35;
@@ -1195,9 +1194,11 @@ span:hover {
 
 
 }
-.arr-two{
+
+.arr-two {
     position: absolute;
 }
+
 .arrow-left-two {
     transition-property: all;
     position: relative;
@@ -1228,7 +1229,7 @@ span:hover {
     top: 2818px;
 }
 
-.link-portfolio >a{
+.link-portfolio > a {
     position: relative;
     font-family: 'Neuton', serif;
     font-weight: bold;
@@ -1239,7 +1240,7 @@ span:hover {
     left: 1077px;
 }
 
-.se-tag p{
+.se-tag p {
     position: relative;
     font-size: 18px;
     font-weight: bold;
@@ -1249,7 +1250,7 @@ span:hover {
     left: 309px;
 }
 
-.web-tag p{
+.web-tag p {
     position: absolute;
     font-size: 18px;
     font-weight: bold;
@@ -1259,7 +1260,7 @@ span:hover {
     left: 487px;
 }
 
-.Ui-ux-tag p{
+.Ui-ux-tag p {
     position: absolute;
     font-size: 18px;
     font-weight: bold;
@@ -1280,14 +1281,14 @@ span:hover {
 
 }
 
-.se-tag:hover,.web-tag:hover,.Ui-ux-tag:hover,.db-tag:hover{
+.se-tag:hover, .web-tag:hover, .Ui-ux-tag:hover, .db-tag:hover {
     cursor: pointer;
     text-shadow: 2px 2px 10px #4F95DA;
 
     filter: dropshadow(color=#4F95DA, offx=2, offy=2);
 }
 
-.poetess-ash-sqr{
+.poetess-ash-sqr {
     position: relative;
     height: 123px;
     width: 1427px;
@@ -1296,7 +1297,7 @@ span:hover {
     background-color: #90ADC6;
 }
 
-.poetess-tag-one{
+.poetess-tag-one {
     position: relative;
     float: left;
     font-family: 'Neuton', serif;
@@ -1307,18 +1308,18 @@ span:hover {
     left: 70px;
 }
 
-.poetess-tag-one>p>span{
+.poetess-tag-one > p > span {
     font-size: 62px;
     color: white;
 }
 
-.poetess-tag-two,.poetess-tag-three{
+.poetess-tag-two, .poetess-tag-three {
     position: relative;
     top: 3000px;
     left: 786px;
 }
 
-.poetess-tag-two{
+.poetess-tag-two {
     position: relative;
     left: 770px;
     font-size: 50px;
@@ -1328,7 +1329,7 @@ span:hover {
     top: 2946px;
 }
 
-.poetess-tag-three{
+.poetess-tag-three {
     position: relative;
     left: 771px;
     font-size: 19px;
@@ -1358,7 +1359,7 @@ span:hover {
     color: #9DBFAF;
 }
 
-.searchTerm:focus{
+.searchTerm:focus {
     color: #565C62;
 }
 
@@ -1374,7 +1375,7 @@ span:hover {
     font-size: 20px;
 }
 
-.search{
+.search {
     width: 30%;
     position: absolute;
     top: 4120px;
@@ -1382,11 +1383,11 @@ span:hover {
     transform: translate(-50%, -50%);
 }
 
-.search:hover{
+.search:hover {
     cursor: text;
 }
 
-.topic-list>ui>li{
+.topic-list > ui > li {
     position: relative;
     top: 2930px;
     left: 83px;
@@ -1397,7 +1398,7 @@ span:hover {
     font-size: 20px;
 }
 
-.topic-list>ui>li:after {
+.topic-list > ui > li:after {
     content: '';
     position: absolute;
     left: 0;
@@ -1410,18 +1411,18 @@ span:hover {
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: scale(0,1);
-    transform: scale(0,1);
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
 }
 
-.topic-list>ui>li:hover:after {
+.topic-list > ui > li:hover:after {
     cursor: pointer;
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-.see-more>p{
+.see-more > p {
     position: relative;
     top: 2964px;
     left: 82px;
@@ -1433,15 +1434,15 @@ span:hover {
 
 }
 
-.see-more>p:hover{
+.see-more > p:hover {
     cursor: pointer;
     text-shadow: 2px 2px 10px #FAD02C;
 
-    filter: dropshadow(color= #FAD02C, offx=2, offy=2);
+    filter: dropshadow(color=#FAD02C, offx=2, offy=2);
 
 }
 
-.poet-pic>img{
+.poet-pic > img {
     position: relative;
     height: 683px;
     width: 777px;
@@ -1449,7 +1450,7 @@ span:hover {
     left: 730px;
 }
 
-.poet-sqr-one{
+.poet-sqr-one {
     position: relative;
     width: 187px;
     height: 161px;
@@ -1460,11 +1461,9 @@ span:hover {
     transition-property: all;
 
 
-
-
 }
 
-.poet-sqr-two{
+.poet-sqr-two {
     position: relative;
     width: 187px;
     height: 161px;
@@ -1477,7 +1476,7 @@ span:hover {
 
 }
 
-.poet-sqr-three{
+.poet-sqr-three {
     position: relative;
     width: 187px;
     height: 161px;
@@ -1489,7 +1488,7 @@ span:hover {
 
 }
 
-.poet-sqr-three:hover,.poet-sqr-two:hover,.poet-sqr-one:hover{
+.poet-sqr-three:hover, .poet-sqr-two:hover, .poet-sqr-one:hover {
     cursor: pointer;
     border: 1.5px solid #FAD02C;
     background-color: white;
@@ -1499,7 +1498,7 @@ span:hover {
 
 }
 
-.news{
+.news {
     position: relative;
     top: 1852px;
     left: 106px;
@@ -1507,7 +1506,7 @@ span:hover {
     height: 104px;
 }
 
-.trans{
+.trans {
     position: relative;
     top: 1849px;
     left: 205px;
@@ -1515,7 +1514,7 @@ span:hover {
     height: 96px;
 }
 
-.recent{
+.recent {
     position: relative;
     top: 2046px;
     left: -121px;
@@ -1556,6 +1555,252 @@ span:hover {
 
 }
 
+.hire-me-sqr {
+    position: relative;
+    width: 1427px;
+    height: 844px;
+    background-color: #90ADC6;
+    left: 44px;
+    top: 1992px;
+}
+
+.hire-me-topic {
+    position: relative;
+    top: 1093px;
+    left: 71px;
+    font-family: 'Neuton', serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.hire-me-topic > span {
+    color: #1A2E35;
+}
+
+.my-detail > li {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Neuton', serif;
+    /*top: 978px;
+    left: 37px;
+
+     */
+    float: left;
+}
+
+.my-detail > li > span {
+    color: white;
+}
+
+.f-name {
+
+    top: 1062px;
+    left: 40px;
+}
+
+
+.l-name {
+    top: 1065px;
+    left: 165px;
+}
+
+.age {
+    top: 1135px;
+    left: -806px;
+}
+
+.nation {
+    top: 1146px;
+    left: -270px;
+}
+
+.phone {
+    top: 1172px;
+    left: 41px;
+}
+
+.mail {
+    top: 1171px;
+    left: 398px;
+
+}
+
+.d-sqr-1 {
+    position: absolute;
+    width: 177px;
+    height: 161px;
+    top: 5288px;
+    left: 83px;
+
+    background-color: #90ADC6;
+    box-shadow: 4px 6px 5px #565C62;
+    transition-property: all;
+}
+
+.d-sqr-2 {
+    position: absolute;
+    width: 177px;
+    height: 161px;
+    top: 5288px;
+    left: 479px;
+
+    background-color: #90ADC6;
+    box-shadow: 4px 6px 5px #565C62;
+    transition-property: all;
+
+}
+
+.d-sqr-3 {
+    position: absolute;
+    width: 177px;
+    height: 161px;
+    top: 5288px;
+    left: 860px;
+
+    background-color: #90ADC6;
+    box-shadow: 4px 6px 5px #565C62;
+    transition-property: all;
+
+}
+
+.d-sqr-4 {
+    position: absolute;
+    width: 177px;
+    height: 161px;
+    top: 5544px;
+    left: 860px;
+
+    background-color: #90ADC6;
+    box-shadow: 4px 6px 5px #565C62;
+    transition-property: all;
+
+}
+
+.d-sqr-5 {
+    position: absolute;
+    width: 177px;
+    height: 161px;
+    top: 5544px;
+    left: 481px;
+
+    background-color: #90ADC6;
+    box-shadow: 4px 6px 5px #565C62;
+    transition-property: all;
+
+}
+
+.d-sqr-6 {
+    position: absolute;
+    width: 177px;
+    height: 161px;
+    top: 5544px;
+    left: 88px;
+
+    background-color: #90ADC6;
+    box-shadow: 4px 6px 5px #565C62;
+    transition-property: all;
+
+}
+
+.d-sqr-1:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.115);
+}
+
+.d-sqr-2:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.115);
+}
+
+.d-sqr-3:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.115);
+}
+
+.d-sqr-4:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.115);
+}
+
+.d-sqr-5:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.115);
+}
+
+.d-sqr-6:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.115);
+}
+
+.ex-GD {
+    position: relative;
+    top: 1110px;
+    left: 88px;
+    font-family: 'Neuton', serif;
+    font-size: 18px;
+    color: #FEE16E;
+}
+
+.ex-poetry {
+    position: relative;
+    top: 935px;
+    left: 490px;
+    font-family: 'Neuton', serif;
+    font-size: 18px;
+    color: white;
+}
+
+.ex-developing {
+    position: relative;
+    top: 760px;
+    left: 871px;
+    font-family: 'Neuton', serif;
+    font-size: 18px;
+    color: black;
+
+}
+
+.pro-works {
+    position: relative;
+    top: 841px;
+    left: 88px;
+    font-family: 'Neuton', serif;
+    font-size: 18px;
+    color: #FEE16E;
+}
+
+.pro-works-2 {
+    position: relative;
+    top: 670px;
+    left: 490px;
+    font-family: 'Neuton', serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+.pro-projects {
+    position: relative;
+    top: 492px;
+    left: 871px;
+    font-family: 'Neuton', serif;
+    font-size: 18px;
+    color: black;
+}
+
+.ex-tags {
+    position: relative;
+    top: 111px;
+    font-weight: lighter;
+}
 
 
 
