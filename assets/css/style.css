@@ -1802,7 +1802,79 @@ span:hover {
     font-weight: lighter;
 }
 
+.logo-two{
+    position: relative;
+    top: 851px;
+    left: 224px;
+}
 
+.last-tag-1{
+    position: relative;
+    top: 823px;
+    left: 155px;
+    color: #333652;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.last-tag-2{
+    position: relative;
+    top: 799px;
+    left: 256px;
+    color: #90ADC6;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.version-sqr{
+    position: absolute;
+    background-color: #90ADC6 ;
+    border-radius: 16px;
+    top: 1px;
+    left: 334px;
+    height: 38px;
+    width: 54px;
+}
+
+.version>p{
+    position: absolute;
+    top: -37px;
+    left: 9px;
+    font-weight: bold;
+    font-family: 'Neuton', serif;
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    top: 6351px;
+    left: 533px;
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.last-nav>ul>li{
+    position: relative;
+    top: 538px;
+    left: 866px;
+    font-family: 'Neuton', serif;
+    font-size: 30px;
+    color: #455A64;
+    margin-bottom: 20px;
+
+}
+
+.last-nav>ul>li:hover{
+    cursor: pointer;
+}
+
+.last-nav>ul>.lats-name{
+    color: #1A2E35;
+}
 
 
 
