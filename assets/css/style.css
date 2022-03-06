@@ -1876,7 +1876,68 @@ span:hover {
     color: #1A2E35;
 }
 
+@media all and (min-width: 320px) and (max-width: 425px) {
+    .home > nav {
+        position: absolute;
+        left: 50%;
+        left: 481px;
+    }
+    .Name{
+        font-size: 30px;
 
+    }
+    .tag-line {
+        position: relative;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Neuton', serif;
+        font-weight: normal;
+        font-size: 25px;
+        top: -32px;
+        left: 50px;
+    }
+    .Name-set {
+        position: absolute;
+        top: 175px;
+        left: 274px;
+        z-index: 2;
+    }
+    .sqr-one {
+        position: absolute;
+        left: 286px;
+        top: 330px;
+    }
+
+    .pro-pic{
+        position: absolute;
+        top: 341px;
+        left: 300px;
+    }
+
+
+    .sqr-two {
+        position: relative;
+        left: 309px;
+        top: 342px;
+    }
+
+    .para{
+        font-size: 20px;
+        top: 622px;
+        left: 88px;
+    }
+
+    .down-cv{
+        top: 733px;
+        left: 98px;
+    }
+
+    .Hire{
+        top: 733px;
+        left: 287px;
+
+    }
+
+}
 
 
 
